@@ -8,8 +8,8 @@ export const StudiesSection = () => {
         introduction="Case Studies"
         title="We Take Every Case Studies Very Seriously"
       />
-      <div className="flex flex-col">
-        <div className="relative flex flex-col items-center justify-end -mx-4 overflow-hidden">
+      <div className="flex flex-col md:flex-row md:flex-wrap md:justify-around lg:flex-nowrap lg:justify-start -mx-4">
+        <div className="relative flex flex-col items-center justify-end -mx-4 overflow-hidden md:w-1/2 lg:w-auto">
           <div className="absolute inset-0 bg-foreground/20">{""}</div>
           <Image
             src="/workteam-1.jpg"
@@ -22,7 +22,7 @@ export const StudiesSection = () => {
             Business Finance Consulting
           </span>
         </div>
-        <div className="relative flex flex-col items-center justify-end -mx-4 overflow-hidden">
+        <div className="relative flex flex-col items-center justify-end -mx-4 overflow-hidden md:w-1/2 lg:w-auto">
           <div className="absolute inset-0 bg-foreground/20">{""}</div>
           <Image
             src="/workteam-2.jpg"
@@ -35,7 +35,7 @@ export const StudiesSection = () => {
             Business Finance Consulting
           </span>
         </div>
-        <div className="relative flex flex-col items-center justify-end -mx-4 overflow-hidden">
+        <div className="relative flex flex-col items-center justify-end -mx-4 overflow-hidden md:w-1/2 lg:w-auto">
           <div className="absolute inset-0 bg-foreground/20">{""}</div>
           <Image
             src="/workteam-3.jpg"
@@ -48,7 +48,7 @@ export const StudiesSection = () => {
             Business Finance Consulting
           </span>
         </div>
-        <div className="relative flex flex-col items-center justify-end -mx-4 overflow-hidden">
+        <div className="relative flex flex-col items-center justify-end -mx-4 overflow-hidden md:w-1/2 lg:w-auto">
           <div className="absolute inset-0 bg-foreground/20">{""}</div>
           <Image
             src="/workteam-4.jpg"

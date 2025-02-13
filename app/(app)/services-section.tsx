@@ -13,42 +13,44 @@ export const ServicesSection = () => {
   return (
     <section className="flex flex-col p-4 gap-y-4">
       <Heading introduction="Services" title="Our Exclusive Services" />
-      <Card
-        icon={Calculator}
-        title="Financial Planning"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        services
-      />
-      <Card
-        icon={ChartCandlestick}
-        title="Investments Management"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        services
-      />
-      <Card
-        icon={Handshake}
-        title="Business Loan"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        services
-      />
-      <Card
-        icon={BadgePercent}
-        title="Taxes Consulting"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        services
-      />
-      <Card
-        icon={ShieldCheck}
-        title="Insurance Consulting"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        services
-      />
-      <Card
-        icon={ChartNoAxesCombined}
-        title="Risk Management"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        services
-      />
+      <div className="flex flex-col gap-y-4 md:flex-row md:flex-wrap">
+        <Card
+          icon={Calculator}
+          title="Financial Planning"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          services
+        />
+        <Card
+          icon={ChartCandlestick}
+          title="Investments Management"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          services
+        />
+        <Card
+          icon={Handshake}
+          title="Business Loan"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          services
+        />
+        <Card
+          icon={BadgePercent}
+          title="Taxes Consulting"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          services
+        />
+        <Card
+          icon={ShieldCheck}
+          title="Insurance Consulting"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          services
+        />
+        <Card
+          icon={ChartNoAxesCombined}
+          title="Risk Management"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          services
+        />
+      </div>
     </section>
   );
 };

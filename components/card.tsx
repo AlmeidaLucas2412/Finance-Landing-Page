@@ -19,7 +19,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "flex flex-col gap-y-4 p-4 rounded-md shadow-md",
+        "flex flex-col gap-y-4 p-4 rounded-md shadow-md md:w-1/2",
         main && "bg-emphasis",
         services && "items-center text-center"
       )}
