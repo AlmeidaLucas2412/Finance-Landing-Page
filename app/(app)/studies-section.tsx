@@ -18,7 +18,7 @@ export const StudiesSection = () => {
             height={500}
             className="object-cover w-full"
           />
-          <span className="absolute text-xl font-semibold text-background bottom-2">
+          <span className="absolute text-xl font-semibold text-background bottom-2 lg:ml-6 xl:ml-0">
             Business Finance Consulting
           </span>
         </div>
@@ -31,7 +31,7 @@ export const StudiesSection = () => {
             height={500}
             className="object-cover w-full"
           />
-          <span className="absolute text-xl font-semibold text-background bottom-2">
+          <span className="absolute text-xl font-semibold text-background bottom-2 lg:ml-6 xl:ml-0">
             Business Finance Consulting
           </span>
         </div>
@@ -44,7 +44,7 @@ export const StudiesSection = () => {
             height={500}
             className="object-cover w-full"
           />
-          <span className="absolute text-xl font-semibold text-background bottom-2">
+          <span className="absolute text-xl font-semibold text-background bottom-2 lg:ml-6 xl:ml-0">
             Business Finance Consulting
           </span>
         </div>
@@ -57,7 +57,7 @@ export const StudiesSection = () => {
             height={500}
             className="object-cover w-full"
           />
-          <span className="absolute text-xl font-semibold text-background bottom-2">
+          <span className="absolute text-xl font-semibold text-background bottom-2 lg:ml-6 xl:ml-0">
             Business Finance Consulting
           </span>
         </div>

@@ -12,54 +12,57 @@ export const Footer = () => {
       }}
     >
       <div className="absolute inset-0 z-10 bg-foreground/80">{""}</div>
-      <div className="z-20 flex flex-col gap-y-8">
-        <div className="flex flex-col gap-y-1">
-          <h1 className="text-2xl font-bold tracking-wide">
-            Consul<span className="text-emphasis">Corp.</span>
-          </h1>
-          <span className="text-xs uppercase text-description">
-            Finance & Consultation
-          </span>
-        </div>
-        <p className="z-20">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, quo!
-        </p>
-        <div className="flex gap-x-1">
-          <div className="flex items-center justify-center rounded-md size-8 bg-emphasis">
-            <a href="#">
-              <Image
-                src="/twitter.svg"
-                alt="twitter"
-                width={20}
-                height={20}
-                className="object-cover p-1 size-6"
-                style={{ filter: "invert(1)" }}
-              />
-            </a>
+      <div className="z-20 flex flex-col gap-y-8 xl:flex-row xl:justify-center xl:gap-x-10">
+        <div className="flex flex-col gap-y-2">
+          <div className="flex flex-col gap-y-1">
+            <h1 className="text-2xl font-bold tracking-wide">
+              Consul<span className="text-emphasis">Corp.</span>
+            </h1>
+            <span className="text-xs uppercase text-description">
+              Finance & Consultation
+            </span>
           </div>
-          <div className="flex items-center justify-center rounded-md size-8 bg-emphasis">
-            <a href="#">
-              <Image
-                src="/facebook.svg"
-                alt="facebook"
-                width={20}
-                height={20}
-                className="object-cover p-1 size-6"
-                style={{ filter: "invert(1)" }}
-              />
-            </a>
-          </div>
-          <div className="flex items-center justify-center rounded-md size-8 bg-emphasis">
-            <a href="#">
-              <Image
-                src="/instagram.svg"
-                alt="instagram"
-                width={20}
-                height={20}
-                className="object-cover p-1 size-8"
-                style={{ filter: "invert(1)" }}
-              />
-            </a>
+          <p className="z-20">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe,
+            quo!
+          </p>
+          <div className="flex gap-x-1">
+            <div className="flex items-center justify-center rounded-md size-8 bg-emphasis">
+              <a href="#">
+                <Image
+                  src="/twitter.svg"
+                  alt="twitter"
+                  width={20}
+                  height={20}
+                  className="object-cover p-1 size-6"
+                  style={{ filter: "invert(1)" }}
+                />
+              </a>
+            </div>
+            <div className="flex items-center justify-center rounded-md size-8 bg-emphasis">
+              <a href="#">
+                <Image
+                  src="/facebook.svg"
+                  alt="facebook"
+                  width={20}
+                  height={20}
+                  className="object-cover p-1 size-6"
+                  style={{ filter: "invert(1)" }}
+                />
+              </a>
+            </div>
+            <div className="flex items-center justify-center rounded-md size-8 bg-emphasis">
+              <a href="#">
+                <Image
+                  src="/instagram.svg"
+                  alt="instagram"
+                  width={20}
+                  height={20}
+                  className="object-cover p-1 size-8"
+                  style={{ filter: "invert(1)" }}
+                />
+              </a>
+            </div>
           </div>
         </div>
         <ul className="flex flex-col gap-y-2">

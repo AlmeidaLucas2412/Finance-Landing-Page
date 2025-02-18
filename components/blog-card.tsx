@@ -19,7 +19,7 @@ export const BlogCard = ({
   subtitle,
 }: Props) => {
   return (
-    <div className="flex flex-col gap-y-4 md:w-[45%]">
+    <div className="flex flex-col gap-y-4 md:w-[45%] xl:w-auto">
       <Image src={image} alt={title} width={500} height={500} />
       <div className="flex flex-col p-4 gap-y-3">
         <div className="flex m:gap-x-3 gap-x-2">

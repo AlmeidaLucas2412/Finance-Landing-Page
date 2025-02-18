@@ -5,7 +5,7 @@ export const BlogSection = () => {
   return (
     <section className="flex flex-col px-4 py-8 gap-y-6">
       <Heading introduction="Our blog" title="Recent From Blog" />
-      <div className="flex flex-col gap-y-8 md:flex-row md:flex-wrap md:justify-evenly">
+      <div className="flex flex-col gap-y-8 md:flex-row md:flex-wrap md:justify-evenly xl:flex-nowrap gap-x-6">
         <BlogCard
           image="/workteam-1.jpg"
           postedBy="Admin"
